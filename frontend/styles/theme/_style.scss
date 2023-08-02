@@ -1,0 +1,85 @@
+.flag-dropdown {
+    background-color: white !important;
+    border: none !important;
+    border-right: 1px solid gainsboro !important;
+}
+
+.react-tel-input {
+    height: 40.5px;
+    padding: 0;
+    width: auto !important;
+}
+
+.language-switcher {
+    position: absolute;
+    z-index: 99999; 
+    top: 30px; 
+    right: 30px;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .language-switcher {
+        top: 11px; 
+        right: 80px;
+    }
+    .language-switcher span {
+        display: none;
+    }
+
+    .language-switcher img {
+        width: 15px;
+    }
+
+    .canvas-container {
+        margin: 0 auto;
+        width: 300px !important;
+        height: 100px !important;
+    }
+    
+    .canvas-content {
+        width: 300px !important;
+        height: 100px !important;
+    }
+}
+
+.sigCanvas {
+    touch-action: none;
+}
+
+.canvas-container {
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+}
+
+.canvas-content {
+    width: 500px;
+    height: 200px;
+}
+
+.btn:focus {
+    outline: none !important;
+    outline-offset: none !important;
+}
+
+// customization of phone input
+.PhoneInput  {
+    background-color: white;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    border: 1px solid #D2DDEC;
+    height: 41px;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+.PhoneInput .PhoneInputInput {
+    border: none;
+    outline: none;
+}
+
+@font-face {
+    font-family: 'Lucida Calligraphy';
+    src: local('MyFont'), url('/fonts/lucida/Lucida-Calligraphy-Italic-2.ttf') format('ttf');
+}

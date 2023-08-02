@@ -1,0 +1,13 @@
+.loading-spinner {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,255,255,0.3);
+    z-index: 9999;
+    user-select: none;
+}
